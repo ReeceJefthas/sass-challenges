@@ -1,0 +1,201 @@
+/*made navbar blocks,so made a lot of columns for it,corrected blocks into navbar,so left the 35 columns  */
+.grid-container{
+  display:grid;
+  grid-template-columns: repeat(35,1fr);
+  grid-auto-rows: 33px;
+  grid-gap: 9px;
+  background-color: silver;
+  color:black;
+  }
+  .topnav{
+    font-size: 20px;
+    word-spacing: 80px;
+    margin-left: 350px;
+    margin-top: 60px;
+  }
+a{color:black;
+
+}
+  .item1{
+    grid-column-start: 2;
+    grid-column-end: 35;
+    grid-row-start: 2;
+    grid-row-end: 6;
+border: 2px solid black;
+
+box-shadow: 2px 2px black;
+}
+
+  .item2{
+    grid-column-start: 2;
+    grid-column-end: 23;
+    grid-row-start: 7;
+    grid-row-end: 13;
+border: 2px solid black;
+font-family: arial;
+font-size: 20px;
+margin-right: 20px;
+}
+  .item3{
+    grid-column-start: 25;
+    grid-column-end: 33;
+    grid-row-start: 7;
+    grid-row-end: 13;
+border: 2px solid black;
+background-image: url(../images/me.jpg);
+background-size: 300px 300px;
+  background-repeat: no-repeat;
+
+}
+  .item4{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid black;
+background-image: url(../images/1.jpg);
+background-size: cover;
+}
+  .item5{
+    grid-column-start: 13;
+    grid-column-end: 24;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid black;
+background-image: url(../images/2.jpg);
+background-size: cover;
+}
+  .item6{
+    grid-column-start: 25;
+    grid-column-end: 34;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid black;
+background-image: url(../images/3.jpg);
+background-size: cover;
+
+}
+  .item7{
+    grid-column-start: 2;
+    grid-column-end: 34;
+    grid-row-start: 20;
+    grid-row-end: 25;
+border: 2px solid black;
+
+
+}
+  .item8{
+    grid-column-start: 1;
+    grid-column-end: 36;
+    grid-row-start: 1;
+    grid-row-end: 26;
+border: 2px solid black;
+
+
+}
+p{margin-left:50%;
+  margin-top: -12%;
+
+}
+
+/*made navbar blocks,so made a lot of columns for it,corrected blocks into navbar,so left the 35 columns  */
+.grid-container{
+  display:grid;
+  grid-template-columns: repeat(35,1fr);
+  grid-auto-rows: 33px;
+  grid-gap: 9px;
+  background-color: silver;
+  color:black;
+  }
+  .topnav{
+    font-size: 20px;
+    word-spacing: 80px;
+    margin-left: 350px;
+    margin-top: 60px;
+  }
+a{color:black;
+
+}
+  .item1{
+    grid-column-start: 2;
+    grid-column-end: 35;
+    grid-row-start: 2;
+    grid-row-end: 6;
+border: 2px solid black;
+
+box-shadow: 2px 2px black;
+}
+
+  .item2{
+    grid-column-start: 2;
+    grid-column-end: 23;
+    grid-row-start: 7;
+    grid-row-end: 13;
+border: 2px solid black;
+font-family: arial;
+font-size: 20px;
+margin-right: 20px;
+}
+  .item3{
+    grid-column-start: 25;
+    grid-column-end: 33;
+    grid-row-start: 7;
+    grid-row-end: 13;
+border: 2px solid black;
+background-image: url(../images/me.jpg);
+background-size: 300px 300px;
+  background-repeat: no-repeat;
+
+}
+  .item4{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid black;
+background-image: url(../images/1.jpg);
+background-size: cover;
+}
+  .item5{
+    grid-column-start: 13;
+    grid-column-end: 24;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid black;
+background-image: url(../images/2.jpg);
+background-size: cover;
+}
+  .item6{
+    grid-column-start: 25;
+    grid-column-end: 34;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid black;
+background-image: url(../images/3.jpg);
+background-size: cover;
+
+}
+  .item7{
+    grid-column-start: 2;
+    grid-column-end: 34;
+    grid-row-start: 20;
+    grid-row-end: 25;
+border: 2px solid black;
+
+
+}
+  .item8{
+    grid-column-start: 1;
+    grid-column-end: 36;
+    grid-row-start: 1;
+    grid-row-end: 26;
+border: 2px solid black;
+
+
+}
+p{margin-left:50%;
+  margin-top: -12%;
+
+}
+
+/*# sourceMappingURL=style.css.map */
